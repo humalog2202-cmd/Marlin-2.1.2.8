@@ -2,6 +2,8 @@
 
 #include "boot.h"
 
+#include "../language/language.h"
+
 namespace TarantulaOS {
 
 void Boot::init() {
@@ -10,7 +12,8 @@ void Boot::init() {
     SERIAL_ECHOLNPGM("========== TarantulaOS Boot ==========");
 
     SERIAL_ECHOLNPGM("[ OK ] Kernel");
-    SERIAL_ECHOLNPGM("[ OK ] Boot");
+    SERIAL_ECHOPGM("[ OK ] ");
+    SERIAL_ECHOLN(Language::get(LANG_BOOT_READY));
 
     SERIAL_ECHOLNPGM("======================================");
     SERIAL_ECHOLNPGM("");
