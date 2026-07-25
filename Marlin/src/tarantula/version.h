@@ -1,0 +1,17 @@
+#pragma once
+
+#define TARANTULA_OS
+
+#define TARANTULA_VERSION_MAJOR 1
+#define TARANTULA_VERSION_MINOR 0
+#define TARANTULA_VERSION_PATCH 0
+
+#define TARANTULA_VERSION "1.0.0 Alpha"
+
+#define TARANTULA_MACHINE "Tevo Tarantula"
+
+#define TARANTULA_BOARD "MKS Robin Nano V3.1"
+
+#define TARANTULA_BUILD "BASE"
+
+#define TARANTULA_AUTHOR "Humalog2202"

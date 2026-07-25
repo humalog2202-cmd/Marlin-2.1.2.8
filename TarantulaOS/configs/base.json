@@ -1,0 +1,7 @@
+{
+  "board": "BOARD_MKS_ROBIN_NANO_V3",
+  "bed_x": 220,
+  "bed_y": 220,
+  "height": 230,
+  "language": "ru"
+}
