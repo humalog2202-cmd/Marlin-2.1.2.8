@@ -29,7 +29,7 @@
  */
 
 #include "MarlinCore.h"
-
+#include "tarantula/tarantula.h"
 #include "HAL/shared/Delay.h"
 #include "HAL/shared/esp_wifi.h"
 #include "HAL/shared/cpu_exception/exception_hook.h"
@@ -1650,6 +1650,8 @@ void setup() {
   marlin_state = MF_RUNNING;
 
   SETUP_LOG("setup() completed.");
+
+TarantulaOS::init();
 
   TERN_(MARLIN_TEST_BUILD, runStartupTests());
 }
