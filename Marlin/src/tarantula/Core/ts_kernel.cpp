@@ -4,6 +4,8 @@
 
 #include "ts_kernel.h"
 
+#include "ts_log.h"
+
 #include "version.h"
 
 namespace TarantulaOS {
@@ -17,9 +19,8 @@ void TSKernel::init() {
     SERIAL_ECHOLNPGM("=================================");
     SERIAL_ECHOLNPGM("");
 
-    SERIAL_ECHOLNPGM("Initializing Kernel...");
-    SERIAL_ECHOLNPGM("Kernel Ready.");
-
+    TSLog::info("Initializing Kernel...");
+    TSLog::info("Kernel Ready.");
 }
 
 }

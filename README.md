@@ -139,3 +139,20 @@ Name|Role|Link|Donate
 ## License
 
 Marlin is published under the [GPL license](/LICENSE) because we believe in open development. The GPL comes with both rights and obligations. Whether you use Marlin firmware as the driver for your open or closed-source product, you must keep Marlin open, and you must provide your compatible Marlin source code to end users upon request. The most straightforward way to comply with the Marlin license is to make a fork of Marlin on Github, perform your modifications, and direct users to your modified fork.
+
+
+# TarantulaOS
+
+Modern firmware framework for 3D printers based on Marlin.
+
+## Features
+
+- 🇷🇺 Native Russian interface
+- ⚡ Fast UI
+- 🔧 Advanced diagnostics
+- ⚙ Driver management
+- 💾 Smart settings
+- 🎨 Theme support
+- 📈 Modular architecture
+
+Powered by Marlin 2.1.2.8
