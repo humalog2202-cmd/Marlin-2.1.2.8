@@ -2,7 +2,7 @@
 
 namespace TarantulaOS {
 
-class Boot {
+class TSBoot {
   public:
     static void init();
 };

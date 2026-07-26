@@ -1,12 +1,12 @@
 #include "../../inc/MarlinConfig.h"
 
-#include "boot.h"
+#include "ts_boot.h"
 
 #include "../language/language.h"
 
 namespace TarantulaOS {
 
-void Boot::init() {
+void TSBoot::init() {
 
     SERIAL_ECHOLNPGM("");
     SERIAL_ECHOLNPGM("========== TarantulaOS Boot ==========");
