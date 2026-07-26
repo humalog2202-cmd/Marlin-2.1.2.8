@@ -8,6 +8,8 @@
 
 #include "version.h"
 
+#include "../settings/ts_settings.h"
+
 namespace TarantulaOS {
 
 void TSKernel::init() {
@@ -20,6 +22,8 @@ void TSKernel::init() {
     SERIAL_ECHOLNPGM("");
 
     TSLog::info("Initializing Kernel...");
+    TSSettings::init();
+    TSLog::info("Settings initialized.");
     TSLog::info("Kernel Ready.");
 }
 
