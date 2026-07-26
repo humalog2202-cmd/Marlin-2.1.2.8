@@ -1,13 +1,13 @@
 #include "tarantula.h"
 
-#include "core/kernel.h"
+#include "core/ts_kernel.h"
 #include "boot/boot.h"
 
 namespace TarantulaOS {
 
 void init() {
 
-    Kernel::init();
+    TSKernel::init();
     Boot::init();
 
 }

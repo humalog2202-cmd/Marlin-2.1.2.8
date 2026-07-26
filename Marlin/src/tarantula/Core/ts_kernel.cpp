@@ -2,13 +2,13 @@
 
 #include "../config.h"
 
-#include "kernel.h"
+#include "ts_kernel.h"
 
 #include "version.h"
 
 namespace TarantulaOS {
 
-void Kernel::init() {
+void TSKernel::init() {
 
     SERIAL_ECHOLNPGM("");
     SERIAL_ECHOLNPGM("=================================");

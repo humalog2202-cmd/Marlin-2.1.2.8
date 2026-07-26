@@ -2,7 +2,7 @@
 
 namespace TarantulaOS {
 
-    class Kernel {
+    class TSKernel {
 
       public:
 
